@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SmartVisionSystem</RootNamespace>
+    <AssemblyName>SmartVisionSystem</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Authors>屹兮</Authors>
+    <Company>Smart Vision System</Company>
+    <Product>Smart Vision System</Product>
+    <Description>工业视觉引导与质量检测上位机：视觉拍照 → 偏差计算 → 运动纠偏 → 质量追溯，全链路纯软件仿真，无相机/PLC 也能跑通</Description>
+    <Copyright>MIT © 2026 屹兮</Copyright>
+    <RepositoryUrl>https://github.com/Yixi233-mo/SmartVisionSystem</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Yixi233-mo/SmartVisionSystem</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.14" />
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260627" />
+  </ItemGroup>
+
+</Project>
